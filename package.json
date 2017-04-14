@@ -1,0 +1,15 @@
+{
+  "name": "webpack-setup",
+  "version": "1.0.0",
+  "description": "A webpack-setup example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "setup"
+  ],
+  "author": "Rafael Belo",
+  "license": "ISC"
+}
