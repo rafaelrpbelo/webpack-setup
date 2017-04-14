@@ -11,5 +11,8 @@
     "setup"
   ],
   "author": "Rafael Belo",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.3.3"
+  }
 }
