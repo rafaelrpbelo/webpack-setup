@@ -4,7 +4,8 @@
   "description": "A webpack-setup example",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "watch": "webpack-watch-server"
   },
   "keywords": [
     "webpack",
@@ -13,6 +14,17 @@
   "author": "Rafael Belo",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^2.3.3"
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.4.0",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "webpack": "^2.3.3",
+    "webpack-watch-server": "^1.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }
